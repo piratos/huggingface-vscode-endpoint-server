@@ -4,6 +4,16 @@ starcoder server for [huggingface-vscdoe](https://github.com/huggingface/hugging
 
 **Can't handle distributed inference very well yet.**
 
+## Fork
+
+This fork:
+
+- Refactor the generator codes to separate classes
+- Adds support for starcoder under ct2fast conversion for faster inference on consumer hardware
+- Has a support vs code extension for triggered code completion see [vstarcoder](https://github.com/piratos/vstarcoder)
+
+PS: Rationale for not using huggingface-vscode explained in vstarcoder extension readme
+
 ## Usage
 
 ```shell
