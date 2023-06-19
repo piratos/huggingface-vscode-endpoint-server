@@ -34,7 +34,7 @@ class StarCoderCT2Fast(GeneratorBase):
             text=query,
             max_length=max_tokens,
             include_prompt_in_result=False,
-            end_token=["<|endoftext|>", "ĊĊ"],
+            end_token=["<|endoftext|>", "ĊĊ", "@", "class", "def"],
             callback=_callback if asynchronous else callback
         )
         return outputs
